@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: shipping
-        image: 10.38.221.67/docker/weaveworksdemos/shipping:0.4.8
+        image: 10.38.252.79/docker/weaveworksdemos/shipping:0.4.8
         env:
          - name: ZIPKIN
            value: zipkin.jaeger.svc.cluster.local
