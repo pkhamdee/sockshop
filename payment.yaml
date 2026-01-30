@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: payment
-        image: 10.38.252.79/docker/weaveworksdemos/payment:0.4.3
+        image: 10.38.37.51/docker/weaveworksdemos/payment:0.4.3
         resources:
           limits:
             cpu: 200m
