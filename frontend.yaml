@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: front-end
-        image: 10.38.37.51/docker/kisahm/front-end:20230208
+        image: 10.8.48.40/docker/kisahm/front-end:20230208
         resources:
           limits:
             cpu: 300m
