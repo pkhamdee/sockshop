@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: rabbitmq
-        image: 10.8.48.40/docker/rabbitmq:3.6.8-management
+        image: rabbitmq:3.6.8-management
         ports:
         - containerPort: 15672
           name: management
@@ -36,7 +36,7 @@ spec:
               - DAC_OVERRIDE
           readOnlyRootFilesystem: true
       - name: rabbitmq-exporter
-        image: 10.8.48.40/docker/kbudde/rabbitmq-exporter
+        image: kbudde/rabbitmq-exporter
         ports:
         - containerPort: 9090
           name: exporter
