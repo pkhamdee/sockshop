@@ -73,7 +73,7 @@ metadata:
 spec:
   ingressClassName: kommander-traefik
   rules:
-  - host: sockshop.10.55.42.19.sslip.io
+  - host: sockshop.10.54.49.19.sslip.io
     http:
       paths:
       - path: /
